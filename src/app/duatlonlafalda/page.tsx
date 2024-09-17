@@ -49,7 +49,7 @@ const DuatlonRace = () => {
           <div className='col-md-6'>
             <div className='card shadow p-3 mb-4 rounded h-100 cardbcolor'>
               <Image src={duatlonracelogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{width:'30%'}}/>
-              <h1 className='carreratitle mb-3'>Heroe Race!</h1>
+              <h1 className='carreratitle mb-3'>Duatlon La Falda!</h1>
               <p className='carreradescription'>El Duatlón Vuelta al Dique La Falda es más que una competencia, es el desafío que estabas esperando. Sumate a esta prueba épica en un recorrido único entre montañas y paisajes naturales impresionantes. Prepará tus piernas para pedalear y correr al máximo, mientras vivís la adrenalina de superar cada kilómetro.</p>
               <p className='carreradescription'>No importa si sos principiante o profesional, este duatlón tiene su lugar para vos. ¿Estás listo para enfrentarte a tus propios límites y disfrutar de un entorno inigualable?</p>
               <ul className='list-unstyled'>
