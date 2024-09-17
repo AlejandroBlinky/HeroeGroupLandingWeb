@@ -12,12 +12,498 @@
 
 /* Dispositivos móviles en modo vertical (menores a 576px) */
 @media (max-width: 575.98px) {
+  .navbar-toggler {
+    background-color: #ffffff; /* Color de fondo del botón del toggle */
+    border: none; /* Eliminar el borde predeterminado */
+  }
   
+  /* Cambiar el color del ícono del botón del toggle */
+ 
+  
+  /* Estilo opcional para el ícono del botón del toggle usando FontAwesome o similar */
+  
+  
+  /* Cambiar color del botón del toggle en estado hover */
+  .navbar-toggler:hover {
+    background-color: #d1d1d1; /* Cambia el color en hover */
+  }
+
+  .bg-light {
+    background-color: #f8f9fa;
+}
+
+
+  .btn {
+    padding: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+    margin: 1rem; /* Espacio entre los botones */
+}
+.btn-primary {
+  background-color: #128693;
+  border-color: #128693;
+}
+
+.btn:hover {
+    background-color: rgb(28, 154, 167);
+    transform: scale(1.05);
+}
+
+
+  
+.navbarcss1{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(37, 40, 42);
+  justify-content: center;
+  align-items: center;  
+}
+  
+  .navbarcss{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    list-style-type:none;
+    font-size: 1rem;
+    padding:1rem;
+    width: 80%;
+    
+  }
+  
+  .navbarcss a{
+    text-decoration: none;
+    list-style-type:none;
+    color: white;
+  }
+  
+  .navbarlogo{
+    justify-self:center;
+    width: 0vw;
+    height: 100%;
+    padding: 0;
+    margin-left: 2.5rem;
+    
+    
+   
+  }
+
+
+  .navbarlogo img{
+    
+    width:100%;
+    height: 100%;
+  }
+  .navbarcssitems{
+    transition: transform 0.3s ease; 
+   
+  }
+
+  .navbarcssitems:hover{
+    
+    transform: scale(1.1);
+    
+    
+  }
+
+  .footercss{
+    
+  
+    background-color:rgb(17, 19, 19);
+    color: white;
+    padding:1rem;
+    position: relative;
+    bottom:0;
+    right:0;
+    left:0;
+    
+  }
+
+  .footercss li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+.footerinfo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footersponsors{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.organizador1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.logosnavbar {
+  
+ 
+  width: 5rem; 
+  height: auto; 
+  
+}
+.carrerasbtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navbaroptionswithlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.4); /* Borde similar al de las cards de Bootstrap */
+  border-radius: 0.25rem; /* Esquinas redondeadas */
+  background-color: rgba(255,255,255,0.1); /* Color de fondo blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 1rem; /* Espaciado interno */
+  margin: 1rem; /* Espaciado externo */
+  width: 100%;
+  height: 8rem;
+  transition: transform 0.3s ease; 
+}
+
+.navbaroptionswithlogo:hover{
+  transform: scale(1.1);
+}
+
+.imgslider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  /* Ajusta el carrusel al ancho completo del contenedor */
+  /* Opcional: Puedes limitar el ancho máximo si quieres que el carrusel no ocupe toda la pantalla */
+  margin: 0 auto; /* Centra el carrusel */
+  height: 70vh; /* Establece una altura fija o máxima que desees para el carrusel */
+  overflow: hidden;
+}
+
+.imgslider img {
+  
+  width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
+  height: auto;  /* Mantiene la proporción original de las imágenes */
+  object-fit: cover;  /* Si quieres que las imágenes cubran completamente el área del carrusel */
+}
+.imgcarrera{
+
+  width: 10vh;
+
+}
+.img{
+  width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
+  height: auto;  /* Mantiene la proporción original de las imágenes */
+  object-fit: cover;
+}
+.carrerasdiv{
+  padding-top: 2rem;
+}
+.carrerasinfotitle{
+   font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #21909c;
+    margin-bottom: 1rem;
+ 
+}
+.carrerasinfo{
+  transition: all 0.3s ease;
+  color: #2b2b2b;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.carrerasinfo:hover {
+  background-color: #c6f3fa;
+  transform: scale(1.05);
+}
+
+.carreratitle{
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 2rem;
+
+}
+
+.carreradescription{
+font-size: 1.4rem;
+
+}
+
+
+
+
+.sponsorfooterlogo img{
+  max-width: 10vh;
+  max-height: 10vh;
+}
+.cardbcolor{
+  background-color: rgba(255,255,255,0.7);
+}
 }
 
 /* Tablets en modo vertical y dispositivos pequeños (768px - 991px) */
 @media (min-width: 576px) and (max-width: 1199.98px) {
+  .navbar-toggler {
+    background-color: #ffffff; /* Color de fondo del botón del toggle */
+    border: none; /* Eliminar el borde predeterminado */
+  }
   
+  /* Cambiar el color del ícono del botón del toggle */
+ 
+  
+  /* Estilo opcional para el ícono del botón del toggle usando FontAwesome o similar */
+  
+  
+  /* Cambiar color del botón del toggle en estado hover */
+  .navbar-toggler:hover {
+    background-color: #d1d1d1; /* Cambia el color en hover */
+  }
+
+  .bg-light {
+    background-color: #f8f9fa;
+}
+
+
+  .btn {
+    padding: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+    margin: 1rem; /* Espacio entre los botones */
+}
+.btn-primary {
+  background-color: #128693;
+  border-color: #128693;
+}
+
+.btn:hover {
+    background-color: rgb(28, 154, 167);
+    transform: scale(1.05);
+}
+
+
+  
+.navbarcss1{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(37, 40, 42);
+  justify-content: center;
+  align-items: center;  
+}
+  
+  .navbarcss{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    list-style-type:none;
+    font-size: 1rem;
+    padding:1rem;
+    width: 80%;
+    
+  }
+  
+  .navbarcss a{
+    text-decoration: none;
+    list-style-type:none;
+    color: white;
+  }
+  
+  .navbarlogo{
+    justify-self:center;
+    width: 0vw;
+    height: 100%;
+    padding: 0;
+    margin-left: 2.5rem;
+    
+    
+   
+  }
+
+
+  .navbarlogo img{
+    
+    width:100%;
+    height: 100%;
+  }
+  .navbarcssitems{
+    transition: transform 0.3s ease; 
+   
+  }
+
+  .navbarcssitems:hover{
+    
+    transform: scale(1.1);
+    
+    
+  }
+
+  .footercss{
+    
+  
+    background-color:rgb(17, 19, 19);
+    color: white;
+    padding:1rem;
+    position: relative;
+    bottom:0;
+    right:0;
+    left:0;
+    
+  }
+
+  .footercss li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+.footerinfo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footersponsors{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.organizador1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.logosnavbar {
+  
+ 
+  width: 5rem; 
+  height: auto; 
+  
+}
+.carrerasbtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navbaroptionswithlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.4); /* Borde similar al de las cards de Bootstrap */
+  border-radius: 0.25rem; /* Esquinas redondeadas */
+  background-color: rgba(255,255,255,0.1); /* Color de fondo blanco */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 1rem; /* Espaciado interno */
+  margin: 1rem; /* Espaciado externo */
+  width: 100%;
+  height: 8rem;
+  transition: transform 0.3s ease; 
+}
+
+.navbaroptionswithlogo:hover{
+  transform: scale(1.1);
+}
+
+.imgslider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  /* Ajusta el carrusel al ancho completo del contenedor */
+  /* Opcional: Puedes limitar el ancho máximo si quieres que el carrusel no ocupe toda la pantalla */
+  margin: 0 auto; /* Centra el carrusel */
+  height: 70vh; /* Establece una altura fija o máxima que desees para el carrusel */
+  overflow: hidden;
+}
+
+.imgslider img {
+  
+  width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
+  height: auto;  /* Mantiene la proporción original de las imágenes */
+  object-fit: cover;  /* Si quieres que las imágenes cubran completamente el área del carrusel */
+}
+.imgcarrera{
+
+  width: 10vh;
+
+}
+.img{
+  width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
+  height: auto;  /* Mantiene la proporción original de las imágenes */
+  object-fit: cover;
+}
+.carrerasdiv{
+  padding-top: 2rem;
+}
+.carrerasinfotitle{
+   font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #21909c;
+    margin-bottom: 1rem;
+ 
+}
+.carrerasinfo{
+  transition: all 0.3s ease;
+  color: #2b2b2b;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.carrerasinfo:hover {
+  background-color: #c6f3fa;
+  transform: scale(1.05);
+}
+
+.carreratitle{
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 2rem;
+
+}
+
+.carreradescription{
+font-size: 1.4rem;
+
+}
+
+
+
+
+.sponsorfooterlogo img{
+  max-width: 10vh;
+  max-height: 10vh;
+}
+.cardbcolor{
+  background-color: rgba(255,255,255,0.7);
+}
   
 }
 
@@ -28,8 +514,31 @@
   /* Estilos específicos para pantallas mayores a 1200px */
 
 
-  
+  .bg-light {
+    background-color: #f8f9fa;
+}
 
+
+  .btn {
+    padding: 2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+    margin: 1rem; /* Espacio entre los botones */
+}
+.btn-primary {
+  background-color: #128693;
+  border-color: #128693;
+}
+
+.btn:hover {
+    background-color: rgb(28, 154, 167);
+    transform: scale(1.05);
+}
+
+.logosnavbar:hover, .imgslider img:hover {
+    transform: scale(1.1);
+}
   
 .navbarcss1{
   display: flex;
@@ -40,7 +549,7 @@
   
   .navbarcss{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     list-style-type:none;
     font-size: 1rem;
@@ -56,10 +565,10 @@
   
   .navbarlogo{
     justify-self:left;
-    width: 10vw;
+    width: 8vw;
     height: 100%;
     padding: 0;
-    margin-left: 2.5rem;
+   
     
     
    
@@ -89,6 +598,10 @@
     background-color:rgb(17, 19, 19);
     color: white;
     padding:1rem;
+    position: relative;
+    bottom:0;
+    right:0;
+    left:0;
     
   }
 
@@ -139,6 +652,8 @@
   margin: 0 auto; /* Centra el carrusel */
   height: 70vh; /* Establece una altura fija o máxima que desees para el carrusel */
   overflow: hidden;
+  border-bottom: solid 1px rgba(1,1,1,0.5);
+
 }
 
 .imgslider img {
@@ -147,26 +662,44 @@
   height: auto;  /* Mantiene la proporción original de las imágenes */
   object-fit: cover;  /* Si quieres que las imágenes cubran completamente el área del carrusel */
 }
+.imgcarrera{
 
+  width: 10vh;
+
+}
 .img{
   width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
   height: auto;  /* Mantiene la proporción original de las imágenes */
   object-fit: cover;
 }
-
+.carrerasdiv{
+  padding-top: 2rem;
+}
 .carrerasinfotitle{
-  font-size: 1.8rem;
-  font-weight: bolder;
-  text-decoration: underline;
-  margin-bottom: 1rem;
+   font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #21909c;
+    margin-bottom: 1rem;
+ 
 }
 .carrerasinfo{
-  font-size: 1.3rem;
-margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  color: #2b2b2b;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.carrerasinfo:hover {
+  background-color: #c6f3fa;
+  transform: scale(1.05);
 }
 
 .carreratitle{
-font-size: 2rem;
+font-size: 1.5rem;
 font-weight: bold;
 margin-bottom: 2rem;
 
@@ -179,7 +712,7 @@ font-size: 1.4rem;
 
 .contactos {
   position: fixed;
-  bottom:17rem;
+  bottom:0rem;
   right: 0;
   z-index:1000;
   
@@ -194,9 +727,14 @@ font-size: 1.4rem;
 
 }
 
+
+
 .sponsorfooterlogo img{
-  max-width: 20vh;
-  max-height: 20vh;
+  max-width: 10vh;
+  max-height: 10vh;
+}
+.cardbcolor{
+  background-color: rgba(255,255,255,0.7);
 }
   
 }

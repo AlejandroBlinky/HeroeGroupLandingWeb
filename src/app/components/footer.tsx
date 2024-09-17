@@ -10,14 +10,7 @@ export default function Footer() {
     return (
       <div className="footercss">
         
-        <div >
-          <ul className="footerinfo">
-            <li>Info 1</li>
-            <li>Info 1</li>
-            <li>Info 1</li>
-            <li>Info 1</li>
-          </ul>
-        </div>
+      
 
 
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import Contactos from "./components/contacts";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <main>{children}</main> {/* Aquí se renderizarán las páginas */}
-        <Contactos></Contactos>
+       
         <Footer />
       </body>
     </html>

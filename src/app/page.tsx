@@ -11,15 +11,24 @@ import slidr5 from '../img/sliderhome/slidr5.jpg';
 import slidr6 from '../img/sliderhome/slidr6.jpg';
 import slidr7 from '../img/sliderhome/slidr7.jpg';
 import slidr8 from '../img/sliderhome/slidr8.jpg';
-
+import backgroundimg from '../img/homebackground.png'
 
 export default function Home() {
   return (
-    <div className='bg-light'>
+    <div className='pb-5' style={{
+      backgroundImage: `url(${backgroundimg.src})`, 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center', 
+      backgroundRepeat: 'no-repeat',
+      minHeight: '100vh', // Ocupa toda la altura de la página
+      
+      padding: '0'
+
+    }}>
       
      
 
-      <div className=''>
+     
       <Carousel  
       
         showArrows={false}
@@ -32,7 +41,8 @@ export default function Home() {
         stopOnHover={false}
         dynamicHeight={false} 
         showThumbs={false}
-        className='imgslider card shadow bg-dark mb-5'
+        className='imgslider shadow mb-5'
+        
         >
           
 
@@ -70,8 +80,8 @@ export default function Home() {
             
           </div>
         </Carousel>
-        </div>
-        <div className='text-center mb-5 container shadow p-5 card border-dark'>
+        
+        <div className='text-center container shadow p-5 card border-dark cardbcolor'>
       <h1 className='carreratitle'>HÉROE GROUP: Desafíos desde Punilla, Córdoba </h1>
       <p className='carreradescription mb-5'>En Héroe Group, diseñamos carreras que te empujan a darlo todo. Desde el corazón de Punilla, Córdoba, te invitamos a vivir experiencias que combinan naturaleza y adrenalina, donde cada obstáculo es una prueba de tu fuerza y valentía. Nos inspiramos en el coraje de los héroes, creando desafíos que te harán descubrir de qué estás hecho.
 ¿Estás listo para enfrentarte al terreno y superar tus propios límites?
