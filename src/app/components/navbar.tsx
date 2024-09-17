@@ -6,6 +6,7 @@ import heroeracelogo from '../../img/díacarrera.png';
 import duatlonlogo from '../../img/logo_dua.png';
 import paranormallogo from '../../img/logoheroeparanormal.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import contactologo from '../../img/wpp.png';
 
 export default function CustomNavbar() {
   const [expanded, setExpanded] = useState(false);
@@ -36,6 +37,10 @@ export default function CustomNavbar() {
             <Nav.Item className="navbaroptionswithlogo">
               <Image src={paranormallogo} alt="paranormallogo" className="logosnavbar" />
               <Nav.Link href="/heroeraceparanormal" className="navbarcssitems">Heroes Race Paranormal</Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="navbaroptionswithlogo">
+              <Image src={contactologo} alt="contactologo" className="logosnavbar" />
+              <Nav.Link href="/contacto" className="navbarcssitems">Contacto</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

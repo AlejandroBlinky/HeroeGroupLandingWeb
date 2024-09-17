@@ -12,6 +12,16 @@
 
 /* Dispositivos móviles en modo vertical (menores a 576px) */
 @media (max-width: 575.98px) {
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contactlogo{
+    width: 6rem;
+    height: auto;
+  }
   .navbar-toggler {
     background-color: #ffffff; /* Color de fondo del botón del toggle */
     border: none; /* Eliminar el borde predeterminado */
@@ -260,6 +270,16 @@ font-size: 1.4rem;
 
 /* Tablets en modo vertical y dispositivos pequeños (768px - 991px) */
 @media (min-width: 576px) and (max-width: 1199.98px) {
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contactlogo{
+    width: 6rem;
+    height: auto;
+  }
   .navbar-toggler {
     background-color: #ffffff; /* Color de fondo del botón del toggle */
     border: none; /* Eliminar el borde predeterminado */
@@ -513,7 +533,22 @@ font-size: 1.4rem;
 @media (min-width: 1200px) {
   /* Estilos específicos para pantallas mayores a 1200px */
 
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
 
+.contactlogo{
+  width: 6rem;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.contactlogo:hover{
+  transform: scale(1.2);
+}
   .bg-light {
     background-color: #f8f9fa;
 }
@@ -549,7 +584,7 @@ font-size: 1.4rem;
   
   .navbarcss{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     list-style-type:none;
     font-size: 1rem;
