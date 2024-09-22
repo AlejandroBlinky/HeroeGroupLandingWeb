@@ -13,7 +13,7 @@ export default function CustomNavbar() {
 
   return (
     <Navbar expand="lg" className="navbarcss1 shadow">
-      <a href='/'><Image src={logo} alt="logo" className="navbarlogo" /></a>
+      <a href='/'><Image src={logo} alt="logo" className="navbarlogo m-2" /></a>
       <Container className=''>
         <Navbar.Brand href="/">
           
@@ -26,6 +26,10 @@ export default function CustomNavbar() {
         />
         <Navbar.Collapse id="basic-navbar-nav" className={`collapse navbar-collapse ${expanded ? 'show' : ''}`}>
           <Nav className="navbarcss fw-bold fs-5 ">
+          <Nav.Item className="navbaroptionswithlogo">
+              <Image src={paranormallogo} alt="paranormallogo" className="logosnavbar" />
+              <Nav.Link href="/heroeraceparanormal" className="navbarcssitems">Heroes Race Paranormal</Nav.Link>
+            </Nav.Item>
             <Nav.Item className="navbaroptionswithlogo" >
               <Image src={heroeracelogo} alt="heroeracelogo" className="logosnavbar" />
               <Nav.Link href="/heroerace" className="navbarcssitems">Heroes Race</Nav.Link>
@@ -35,16 +39,15 @@ export default function CustomNavbar() {
               <Nav.Link href="/duatlonlafalda" className="navbarcssitems">Duatlon La Falda</Nav.Link>
             </Nav.Item>
             <Nav.Item className="navbaroptionswithlogo">
-              <Image src={paranormallogo} alt="paranormallogo" className="logosnavbar" />
-              <Nav.Link href="/heroeraceparanormal" className="navbarcssitems">Heroes Race Paranormal</Nav.Link>
-            </Nav.Item>
-            <Nav.Item className="navbaroptionswithlogo">
               <Image src={contactologo} alt="contactologo" className="logosnavbar" />
               <Nav.Link href="/contacto" className="navbarcssitems">Contacto</Nav.Link>
             </Nav.Item>
           </Nav>
+          
         </Navbar.Collapse>
+        
       </Container>
+      
     </Navbar>
   );
 }

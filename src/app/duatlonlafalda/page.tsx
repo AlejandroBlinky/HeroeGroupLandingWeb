@@ -4,7 +4,7 @@ import duatlonraceimage from '../../img/duaimg.png'
 import duatlonracelogo from '../../img/logo_dua.png'
 import { FaMedal, FaUsers } from 'react-icons/fa';
 import backgroundimg from '../../img/duatlonbackground.png'
-
+import insta from '../../img/instagram.png'
 
 const DuatlonRace = () => {
   return (
@@ -50,13 +50,13 @@ const DuatlonRace = () => {
             <div className='card shadow p-3 mb-4 rounded h-100 cardbcolor'>
               <Image src={duatlonracelogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{width:'30%'}}/>
               <h1 className='carreratitle mb-3'>Duatlon La Falda!</h1>
-              <p className='carreradescription'>El Duatlón Vuelta al Dique La Falda es más que una competencia, es el desafío que estabas esperando. Sumate a esta prueba épica en un recorrido único entre montañas y paisajes naturales impresionantes. Prepará tus piernas para pedalear y correr al máximo, mientras vivís la adrenalina de superar cada kilómetro.</p>
-              <p className='carreradescription'>No importa si sos principiante o profesional, este duatlón tiene su lugar para vos. ¿Estás listo para enfrentarte a tus propios límites y disfrutar de un entorno inigualable?</p>
+              <p className='carreradescription'>El Duatlón no es solo una competencia; es un evento que celebra el esfuerzo, la resistencia y la determinación. Este desafío combina el ciclismo y el running, en un recorrido pensado para quienes buscan superarse.</p>
+              <p className='carreradescription'>Cada pedalada y cada paso representan no solo un reto físico, sino también un tributo a la perseverancia. Cada participante tiene la oportunidad de descubrir su propio poder y espíritu de superación.</p>
               <ul className='list-unstyled'>
                 <li className='carrerasinfotitle'>Fecha!</li>
-                <li className='carrerasinfo'>14 de abril 2024</li>
+                <li className='carrerasinfo'>Por decidir..</li>
                 <li className='carrerasinfotitle mt-3'>Ubicación!</li>
-                <li className='carrerasinfo'>📍 Villa Giardino, Córdoba.</li>
+                <li className='carrerasinfo'>📍Por decidir..</li>
               </ul>
             </div>
           </div>
@@ -65,18 +65,22 @@ const DuatlonRace = () => {
         {/* Links Section */}
         <div className='mt-5'>
           <h2 className='carrerasinfotitle mb-4 card p-4' style={{backgroundColor:'rgba(1,1,1,0.5)'}}>¡Links necesarios!</h2>
+          
           <div className='carrerasbtn'>
-            <a href="https://drive.google.com/file/d/1PWFy1J-kToG10vKOcHJDn1tL49LR9Qfm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1eXcbt2BKvFIlOq0cJVPajLyS8bZUfP_A/view" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Deslinde</button>
             </a>
-            <a href="https://drive.google.com/file/d/1j-TLKcfgaemN1dfGxlEN8Lj4mLHezrB2/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1nO-Pn8sdeB7EJJ0cYdVHqD_38GLYnNCP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
             </a>
-            <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
+            {/*<a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Resultados y Tiempos</button>
-            </a>
-            <a href="https://snapshot.my.canva.site/linkinbio" target="_blank" rel="noopener noreferrer">
+            </a>*/}
+            <a href="https://drive.google.com/drive/folders/1w-35Scucf06ydl5zSZbQS0jP0PfbgRZ_?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
+            </a>
+            <a href="https://www.instagram.com/duatlon_lf/" target="_blank" rel="noopener noreferrer">
+              <Image className='contactlogo' src={insta} alt='instalogo'></Image>
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@ import heroesraceimage from '../../img/heroeraceimg.jpg'
 import heroeracelogo from '../../img/díacarrera.png'
 import { FaChild, FaRunning, FaMedal, FaUsers } from 'react-icons/fa';
 import backgroundimg from '../../img/heroeracebackground.png'
-
+import insta from '../../img/instagram.png';
 
 const HeroeRace = () => {
   return (
@@ -52,13 +52,13 @@ const HeroeRace = () => {
             <div className='card shadow p-3 mb-2 rounded h-100 cardbcolor'>
               <Image src={heroeracelogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{width:'30%'}}/>
               <h1 className='carreratitle mb-3'>Heroe Race!</h1>
-              <p className='carreradescription'>Prepárate para una carrera OCR única en Altos de San Pedro, Villa Giardino. En Héroe Race, no solo te vas a ensuciar, saltar, trepar y superar obstáculos, sino que también vas a poner a prueba tu cuerpo y tu mente en un circuito diseñado con inspiración militar.</p>
-              <p className='carreradescription'>Conéctate con la naturaleza y vive la adrenalina de superar cada desafío, mientras honramos a nuestros héroes de Malvinas. ¿Estás listo para darlo todo?</p>
+              <p className='carreradescription'>En Héroe Race, nuestra misión es combinar la pasión por el deporte con un tributo especial a nuestros héroes, en particular a los excombatientes de Malvinas. Cada carrera que organizamos es más que un desafío físico; es un homenaje al coraje, la resistencia y el sacrificio.</p>
+              <p className='carreradescription'> Corremos en memoria de los valientes que defendieron nuestra patria, llevando ese espíritu de lucha en cada obstáculo y cada kilómetro. En Héroe Race, todos somos héroes en nuestro propio camino.</p>
               <ul className='list-unstyled'>
                 <li className='carrerasinfotitle'>Fecha!</li>
-                <li className='carrerasinfo'>14 de abril 2024</li>
+                <li className='carrerasinfo'>Por decidir..</li>
                 <li className='carrerasinfotitle mt-3'>Ubicación!</li>
-                <li className='carrerasinfo'>📍 Villa Giardino, Córdoba.</li>
+                <li className='carrerasinfo'>📍Por decidir..</li>
               </ul>
             </div>
           </div>
@@ -68,7 +68,7 @@ const HeroeRace = () => {
         <div className='mt-5'>
           <h2 className='carrerasinfotitle mb-4 card p-4' style={{backgroundColor:'rgba(1,1,1,0.5)'}}>¡Links necesarios!</h2>
           <div className='carrerasbtn'>
-            <a href="https://drive.google.com/file/d/1PWFy1J-kToG10vKOcHJDn1tL49LR9Qfm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1PWFy1J-kToG10vKOcHJDn1tL49LR9Qfm/view" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Deslinde</button>
             </a>
             <a href="https://drive.google.com/file/d/1j-TLKcfgaemN1dfGxlEN8Lj4mLHezrB2/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
@@ -79,6 +79,9 @@ const HeroeRace = () => {
             </a>
             <a href="https://snapshot.my.canva.site/linkinbio" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
+            </a>
+            <a href="https://www.instagram.com/heroerace_ok/" target="_blank" rel="noopener noreferrer">
+              <Image className='contactlogo' src={insta} alt='instalogo'></Image>
             </a>
           </div>
         </div>

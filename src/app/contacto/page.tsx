@@ -15,7 +15,7 @@ const Contacto = () => {
     }}>
      
     <div className='card shadow bg-dark contact'>
-        <div className='m-2'><a href='https://wa.me/5493548550304'><Image src={wppimg} alt='wppimg' className='contactlogo'>
+        <div className='m-2'><a href='https://wa.me/5493548550304'><Image src={wppimg} alt='wppimg' className='contactlogo  shadow'>
         
         </Image></a></div>
         <p className='text-white text-center m-5' style={{fontSize:'1.2rem'}}>- Director de equipo.</p>

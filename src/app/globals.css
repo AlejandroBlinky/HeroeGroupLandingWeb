@@ -5,13 +5,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Para Firefox en macOS */
 }
 
-
+body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Para Firefox en macOS */}
 
 
 /* Dispositivos móviles en modo vertical (menores a 576px) */
 @media (max-width: 575.98px) {
+  .navbar-nav .nav-link {
+    color: white; /* Color inicial */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255); /* Color al hacer hover */
+  }
   .contact{
     display: flex;
     justify-content: space-between;
@@ -78,7 +88,7 @@
     align-items: center;
     list-style-type:none;
     font-size: 1rem;
-    padding:1rem;
+    padding:0;
     width: 80%;
     
   }
@@ -180,7 +190,7 @@
   border-radius: 0.25rem; /* Esquinas redondeadas */
   background-color: rgba(255,255,255,0.1); /* Color de fondo blanco */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  padding: 1rem; /* Espaciado interno */
+  /* Espaciado interno */
   margin: 1rem; /* Espaciado externo */
   width: 100%;
   height: 8rem;
@@ -270,6 +280,13 @@ font-size: 1.4rem;
 
 /* Tablets en modo vertical y dispositivos pequeños (768px - 991px) */
 @media (min-width: 576px) and (max-width: 1199.98px) {
+  .navbar-nav .nav-link {
+    color: white; /* Color inicial */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255); /* Color al hacer hover */
+  }
   .contact{
     display: flex;
     justify-content: space-between;
@@ -532,7 +549,15 @@ font-size: 1.4rem;
 /* Pantallas de escritorio grandes (1200px en adelante) */
 @media (min-width: 1200px) {
   /* Estilos específicos para pantallas mayores a 1200px */
-
+  
+  .navbar-nav .nav-link {
+    color: white; /* Color inicial */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255); /* Color al hacer hover */
+  }
+  
 .contact{
   display: flex;
   flex-direction: row;
@@ -577,14 +602,14 @@ font-size: 1.4rem;
   
 .navbarcss1{
   display: flex;
-  background-color:rgb(37, 40, 42);
+  background-color:rgba(37, 40, 42,1);
   justify-content: space-between;
   align-items: center;  
 }
   
   .navbarcss{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     list-style-type:none;
     font-size: 1rem;
@@ -596,6 +621,7 @@ font-size: 1.4rem;
     text-decoration: none;
     list-style-type:none;
     color: white;
+    
   }
   
   .navbarlogo{
@@ -622,8 +648,8 @@ font-size: 1.4rem;
 
   .navbarcssitems:hover{
     
-    transform: scale(1.1);
     
+    transform: scale(1.1);
     
   }
 
@@ -655,6 +681,7 @@ font-size: 1.4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
 }
 
 .organizador1{
@@ -676,27 +703,30 @@ font-size: 1.4rem;
   display: flex;
   justify-content:space-between;
   align-items: center;
+ 
 }
 
 .imgslider {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  align-items:center;
   width: 100%;  /* Ajusta el carrusel al ancho completo del contenedor */
   /* Opcional: Puedes limitar el ancho máximo si quieres que el carrusel no ocupe toda la pantalla */
   margin: 0 auto; /* Centra el carrusel */
   height: 70vh; /* Establece una altura fija o máxima que desees para el carrusel */
-  overflow: hidden;
+  overflow:hidden;
   border-bottom: solid 1px rgba(1,1,1,0.5);
 
 }
 
 .imgslider img {
   
-  width: 100%;  /* Las imágenes se ajustan al tamaño del carrusel */
-  height: auto;  /* Mantiene la proporción original de las imágenes */
-  object-fit: cover;  /* Si quieres que las imágenes cubran completamente el área del carrusel */
+    height: 100%;/* Las imágenes se ajustan al tamaño del carrusel */
+   /* Mantiene la proporción original de las imágenes */
+   object-fit:contain;  /* Si quieres que las imágenes cubran completamente el área del carrusel */
 }
+
+
 .imgcarrera{
 
   width: 10vh;
@@ -714,7 +744,7 @@ font-size: 1.4rem;
    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: underline;
-    color: #21909c;
+    color: #35a9b6;
     margin-bottom: 1rem;
  
 }
@@ -765,8 +795,8 @@ font-size: 1.4rem;
 
 
 .sponsorfooterlogo img{
-  max-width: 10vh;
-  max-height: 10vh;
+  max-width: 15vh;
+  max-height: 15vh;
 }
 .cardbcolor{
   background-color: rgba(255,255,255,0.7);
