@@ -13,6 +13,8 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
   -moz-osx-font-smoothing: grayscale; /* Para Firefox en macOS */}
 
 
+
+
 /* Dispositivos móviles en modo vertical (menores a 576px) */
 @media (max-width: 575.98px) {
   .navbar-nav .nav-link {
@@ -62,7 +64,7 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
     margin: 1rem; /* Espacio entre los botones */
 }
 .btn-primary {
-  background-color: #128693;
+  background-color: #1ab1c2;
   border-color: #128693;
 }
 
@@ -327,7 +329,7 @@ font-size: 1.4rem;
     margin: 1rem; /* Espacio entre los botones */
 }
 .btn-primary {
-  background-color: #128693;
+  background-color: #1ab1c2;
   border-color: #128693;
 }
 
@@ -585,10 +587,13 @@ font-size: 1.4rem;
     transition: background-color 0.3s ease, transform 0.3s ease;
     
     margin: 1rem; /* Espacio entre los botones */
+    
 }
 .btn-primary {
-  background-color: #128693;
+  background-color: #1ab1c2;
   border-color: #128693;
+  
+  
 }
 
 .btn:hover {
@@ -746,7 +751,7 @@ font-size: 1.4rem;
     text-decoration: underline;
     color: #35a9b6;
     margin-bottom: 1rem;
- 
+    text-shadow: 0.5px 0.5px 0.5px #4fc0c0;
 }
 .carrerasinfo{
   transition: all 0.3s ease;

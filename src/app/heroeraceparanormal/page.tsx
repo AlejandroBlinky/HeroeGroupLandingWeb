@@ -26,9 +26,32 @@ const HeroeRaceParanormal = () => {
                 <ul className='list-unstyled'>
                   <li className='carrerasinfotitle mb-3'>¡Categorías!</li>
                   <li className='carrerasinfo'>
-                   Proximamente.
+                  Elite: Para los más experimentados y valientes
+                          8 km Elite Femenino
+                          8 km Elite Masculino 
                   </li>
-                
+                  <li className='carrerasinfo'>
+                  Individual Competitiva: Para los que prefieren enfrentar el desafío solos
+                                          8 Km Femenino-Masculino
+                                          Hasta 29
+                                          De 30 a 39
+                                          De 40 a 49
+                                          Más 50
+                  </li>
+                  <li className='carrerasinfo'>
+                  Dupla: Para los que quieren compartir el terror con un amigo o familiar
+                          Dúo Femenino
+                          Dúo Masculino
+                          Dúo Mixto ·
+                  </li>
+                  <li className='carrerasinfo'>
+                            Principiante: Para aquellos que se inician en el mundo de las carreras de obstáculos
+                            5 km Femenino -Masculino 
+                  </li>
+                  <li className='carrerasinfo'>Kids: Para los más pequeños que quieren unirse a la aventura </li>
+                  <li className='carrerasinfo'></li>
+                  
+                  
                 </ul>
               </div>
             </div>
@@ -42,9 +65,21 @@ const HeroeRaceParanormal = () => {
               <p className='carreradescription'>Atrévete a vivir lo desconocido en Héroe Race Paranormal. Esta carrera única te llevará a enfrentar tus miedos mientras te desafías en un entorno repleto de sorpresas. Con obstáculos temáticos, pruebas llenas de adrenalina y una atmósfera cargada de misterio, solo los más valientes se atreven a completar este recorrido. ¿Estás listo para ser el héroe que desafía lo paranormal?</p>
               <ul className='list-unstyled'>
                 <li className='carrerasinfotitle'>Fecha!</li>
-                <li className='carrerasinfo'>Proximamente</li>
+                <li className='carrerasinfo'>Domingo 1 Diciembre. 8hs</li>
                 <li className='carrerasinfotitle mt-3'>Ubicación!</li>
                 <li className='carrerasinfo'>📍Hotel Eden, La Falda.</li>
+                <li className='carrerasinfo'>KIT PARA TODAS LAS CATEGORÍAS
+incluye:
+● Medalla finisher para todos los participantes
+● Remera Héroe Race Edición Paranormal
+● Obsequio de sponsor
+● Vincha con el número del corredor
+● Seguro por corredor
+● Servicio médico en todo el circuito
+● Servicio de fotografía
+● Hidratación
+● Sistema de cronometraje
+● Locución y animación</li>
               </ul>
             </div>
           </div>
@@ -68,6 +103,9 @@ const HeroeRaceParanormal = () => {
             </a>*/}
           </div>
         </div>
+        <a href="https://cronometrajeinstantaneo.com/inscripciones/heroe-race-edicion-paranormal" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion!</button>
+            </a>
       </div>
     </div>
   );
