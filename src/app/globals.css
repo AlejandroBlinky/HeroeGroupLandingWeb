@@ -73,7 +73,6 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
     transform: scale(1.05);
 }
 
-
   
 .navbarcss1{
   display: flex;
@@ -83,7 +82,7 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
   align-items: center;  
 }
   
-  .navbarcss{
+.navbarcss{
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -96,22 +95,40 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
   }
   
   .navbarcss a{
+   
     text-decoration: none;
     list-style-type:none;
     color: white;
   }
-  
+ 
+  .navbarlogoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   .navbarlogo{
-    justify-self:center;
-    width: 0vw;
+    
+    width: 50%;
     height: 100%;
     padding: 0;
-    margin-left: 2.5rem;
+    justify-self: center;
+    
     
     
    
   }
 
+ 
+
+  .navbarlogo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ 
 
   .navbarlogo img{
     
