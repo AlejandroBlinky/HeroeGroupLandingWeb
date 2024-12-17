@@ -95,12 +95,12 @@ incluye:
             <a href="https://drive.google.com/file/d/1-QFh55a08UN9IqBGPbJCENud5Wpu5iXT/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
             </a>
-          {/*  <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
+            <a href="https://cronometrajeinstantaneo.com/resultados/heroe-race-edicion-paranormal/generales" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Resultados y Tiempos</button>
             </a>
-            <a href="https://snapshot.my.canva.site/linkinbio" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/mobile/folders/1jGmaCx4jQTikNQLtPCBSQe3LBbuPIRrC?usp=drive_link&fbclid=PAY2xjawG67cVleHRuA2FlbQIxMAABpnzkJ_sfYq7iSVVEYNTxvLuZZcl_P2idp6dJlFX35r3GUPbpeUdd8U1fQQ_aem_3KvTNZPsQKQ5ehqAVGwtKw" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
-            </a>*/}
+            </a>
           </div>
         </div>
         <a href="https://cronometrajeinstantaneo.com/inscripciones/heroe-race-edicion-paranormal" target="_blank" rel="noopener noreferrer">
