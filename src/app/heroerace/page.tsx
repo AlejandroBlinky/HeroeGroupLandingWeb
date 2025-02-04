@@ -85,6 +85,13 @@ const HeroeRace = () => {
             </a>
           </div>
         </div>
+        <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Individual!</button>
+            </a>
+            
+            <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025/dupla" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Duplas!</button>
+            </a>
       </div>
     </div>
   );
