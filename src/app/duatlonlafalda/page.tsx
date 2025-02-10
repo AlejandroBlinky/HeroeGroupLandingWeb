@@ -83,6 +83,14 @@ const DuatlonRace = () => {
               <Image className='contactlogo' src={insta} alt='instalogo'></Image>
             </a>
           </div>
+          <div className='tiemposyresultadosdiv'>  
+              <a href="https://cronometrajeinstantaneo.com/resultados/duatlon-la-falda/categorias" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2024</button>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2025</button>
+            </a>
+            </div>
         </div>
       </div>
     </div>

@@ -74,9 +74,7 @@ const HeroeRace = () => {
             <a href="https://drive.google.com/file/d/1j-TLKcfgaemN1dfGxlEN8Lj4mLHezrB2/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
             </a>
-            <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Resultados y Tiempos</button>
-            </a>
+          
             <a href="https://snapshot.my.canva.site/linkinbio" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
             </a>
@@ -93,6 +91,14 @@ const HeroeRace = () => {
               <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Duplas!</button>
             </a>
       </div>
+        <div className='tiemposyresultadosdiv'>  
+              <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2024</button>
+            </a>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2025</button>
+            </a>
+            </div>
     </div>
   );
 };

@@ -28,16 +28,16 @@ export default function CustomNavbar() {
         <Navbar.Collapse id="basic-navbar-nav" className={`collapse navbar-collapse ${expanded ? 'show' : ''}`}>
           <Nav className="navbarcss fw-bold fs-5">
             <Nav.Item className="navbaroptionswithlogo">
-              <Image src={paranormallogo} alt="paranormallogo" className="logosnavbar" />
-              <Nav.Link href="/heroeraceparanormal" className="navbarcssitems">Heroes Race Paranormal</Nav.Link>
-            </Nav.Item>
-            <Nav.Item className="navbaroptionswithlogo">
               <Image src={heroeracelogo} alt="heroeracelogo" className="logosnavbar" />
               <Nav.Link href="/heroerace" className="navbarcssitems">Heroes Race</Nav.Link>
             </Nav.Item>
             <Nav.Item className="navbaroptionswithlogo">
               <Image src={duatlonlogo} alt="dualogo" className="logosnavbar" />
               <Nav.Link href="/duatlonlafalda" className="navbarcssitems">Duatlon La Falda</Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="navbaroptionswithlogo">
+              <Image src={paranormallogo} alt="paranormallogo" className="logosnavbar" />
+              <Nav.Link href="/heroeraceparanormal" className="navbarcssitems">Heroes Race Paranormal</Nav.Link>
             </Nav.Item>
             <Nav.Item className="navbaroptionswithlogo">
               <Image src={contactologo} alt="contactologo" className="logosnavbar" />
