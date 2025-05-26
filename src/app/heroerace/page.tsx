@@ -75,7 +75,7 @@ const HeroeRace = () => {
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
             </a>
           
-            <a href="https://snapshot.my.canva.site/linkinbio" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/folders/1OtjrOz6DBVgOHjRmRjjt2b56aUGZnLUZ?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
             </a>
             <a href="https://www.instagram.com/heroerace_ok/" target="_blank" rel="noopener noreferrer">
@@ -84,18 +84,18 @@ const HeroeRace = () => {
           </div>
         </div>
         <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Individual!</button>
+              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripciones cerradas!</button>
             </a>
             
             <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025/dupla" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Duplas!</button>
+              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion cerradas!</button>
             </a>
       </div>
         <div className='tiemposyresultadosdiv'>  
               <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2024</button>
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://cronometrajeinstantaneo.com/resultados/heroes-race-2025/filtros" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg'>Resultados y Tiempos 2025</button>
             </a>
             </div>
