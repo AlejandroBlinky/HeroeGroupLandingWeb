@@ -48,12 +48,12 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
   }
   
   .contactlogo{
-    width: 6rem;
+    width: 12vh;
     height: auto;
   }
   .navbar-toggler {
-    background-color: #ffffff; /* Color de fondo del botón del toggle */
-    border: none; /* Eliminar el borde predeterminado */
+    background-color: #cecedf; /* Color de fondo del botón del toggle */
+    border: 2px groove rgb(0, 0, 0); /* Eliminar el borde predeterminado */
   }
   
   /* Cambiar el color del ícono del botón del toggle */
@@ -64,11 +64,12 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
   
   /* Cambiar color del botón del toggle en estado hover */
   .navbar-toggler:hover {
-    background-color: #d1d1d1; /* Cambia el color en hover */
+    background-color: #ffffff; /* Cambia el color en hover */
   }
 
   .bg-light {
     background-color: #f8f9fa;
+    
 }
 
 
@@ -120,9 +121,12 @@ body{-webkit-font-smoothing: antialiased; /* Para Webkit (Chrome, Safari) */
  
   .navbarlogoa{
     display: flex;
+    position: absolute;
+    left:-10%;
+    
     justify-content: center;
     align-items: center;
-    width: 0%;
+    width: 40%;
   }
   .navbarlogo{
     
@@ -226,7 +230,15 @@ width: 15vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  align-content: center;
+}
+
+.carrerasbtn a{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .navbaroptionswithlogo {
@@ -438,13 +450,14 @@ font-size: 1.4rem;
   }
   
   .navbarlogo{
-    justify-self:center;
-    width: 0vw;
-    height: 100%;
-    padding: 0;
-    margin-left: 2.5rem;
-    
-    
+    display: flex;
+    position: absolute;
+    left:-0%;
+    top: 18%;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    height: auto;
    
   }
 
@@ -537,13 +550,14 @@ width: 15vh;
   justify-content: center;
  
 
-  padding: 1rem 1.5rem;
-  margin: 1rem auto;
-
+  margin-left: 1rem;
+  
+  font-size: 1rem;
+  font-weight: 100;
   width: 100%;
   max-width: 100%;
   height: auto;
-  min-height: 10rem;
+  min-height: 8rem;
 
   background: rgba(101, 199, 255, 0.295);
   border: 2px groove rgba(0, 0, 0, 0.459);
@@ -742,6 +756,8 @@ font-size: 1.4rem;
   }
   .navbarcssitems{
     transition: transform 0.3s ease; 
+    font-size: 1.1rem;
+    font-weight: 100;
    
   }
 
@@ -809,12 +825,18 @@ width: 15vh;
 .logonavcontacto{
   width: 7vh; 
   height: auto; 
+
 }
 
 .navbaroptionswithlogo{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
+  height: 14vh;
+  width: 20%;
+  padding: 1vh;
+  border-radius: 1vh;
+  background-color:rgb(49, 56, 61);
  
 }
 

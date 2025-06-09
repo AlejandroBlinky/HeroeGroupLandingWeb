@@ -66,7 +66,7 @@ const HeroeRaceParanormal = () => {
           {/* Right Column */}
           <div className='col-md-6'>
             <div className='card shadow p-3 mb-4 rounded h-100 cardbcolor'>
-               <button onClick={handleScrollToResultados} className="btn btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
+               <button onClick={handleScrollToResultados} className="btn align-self-center  btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
               <Image src={hrparanormallogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{width:'30%'}}/>
               <h1 className='carreratitle mb-3'>Heroe Race Paranormal!</h1>
               <p className='carreradescription'>Atrévete a vivir lo desconocido en Héroe Race Paranormal. Esta carrera única te llevará a enfrentar tus miedos mientras te desafías en un entorno repleto de sorpresas. Con obstáculos temáticos, pruebas llenas de adrenalina y una atmósfera cargada de misterio, solo los más valientes se atreven a completar este recorrido. ¿Estás listo para ser el héroe que desafía lo paranormal?</p>

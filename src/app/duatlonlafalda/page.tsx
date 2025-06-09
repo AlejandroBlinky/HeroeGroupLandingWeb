@@ -56,7 +56,7 @@ const DuatlonRace = () => {
           {/* Right Column */}
           <div className='col-md-6'>
             <div className='card shadow p-3 mb-4 rounded h-100 cardbcolor'>
-              <button onClick={handleScrollToResultados} className="btn btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
+              <button onClick={handleScrollToResultados} className="btn align-self-center btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
               <Image src={duatlonracelogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{width:'30%'}}/>
               <h1 className='carreratitle mb-3'>Duatlon La Falda!</h1>
               <p className='carreradescription'>El Duatlón no es solo una competencia; es un evento que celebra el esfuerzo, la resistencia y la determinación. Este desafío combina el ciclismo y el running, en un recorrido pensado para quienes buscan superarse.</p>
@@ -73,31 +73,31 @@ const DuatlonRace = () => {
 
         {/* Links Section */}
         <div className='mt-5'>
-          <h2 className='carrerasinfotitle mb-4 card p-4' style={{backgroundColor:'rgba(1,1,1,0.5)'}}>¡Links necesarios!</h2>
+          <h2 className='carrerasinfotitle mb-4 card p-4' style={{backgroundColor:'rgba(1,1,1,0.5)', justifyContent:'center'}}>¡Links necesarios!</h2>
           
           <div className='carrerasbtn'  ref={resultadosRef}>
             <a href="https://drive.google.com/file/d/1eXcbt2BKvFIlOq0cJVPajLyS8bZUfP_A/view" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Deslinde</button>
+              <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Deslinde</button>
             </a>
             <a href="https://drive.google.com/file/d/1nO-Pn8sdeB7EJJ0cYdVHqD_38GLYnNCP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-              <button  className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
+              <button  className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Apto Físico</button>
             </a>
             {/*<a href="https://cronometrajeinstantaneo.com/resultados/heroes-race/categorias" target="_blank" rel="noopener noreferrer">
               <button className='btn btn-primary me-2 btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Resultados y Tiempos</button>
             </a>*/}
             <a href="https://drive.google.com/drive/folders/1w-35Scucf06ydl5zSZbQS0jP0PfbgRZ_?usp=drive_link" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary btn-lg' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
+              <button className='btn btn-primary btn-lg ' style={{ backgroundColor: 'rgb(18, 134, 147)', borderColor: 'rgb(18, 134, 147)' }}>Descarga tu foto</button>
             </a>
-            <a href="https://www.instagram.com/duatlon_lf/" target="_blank" rel="noopener noreferrer">
-              <Image className='contactlogo' src={insta} alt='instalogo'></Image>
+            <a className='align-self-center' href="https://www.instagram.com/duatlon_lf/" target="_blank" rel="noopener noreferrer">
+              <Image className='align-self-center contactlogo' src={insta} alt='instalogo'></Image>
             </a>
           </div>
           <a href="https://cronometrajeinstantaneo.com/inscripciones/duatlon-la-falda-2025" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Individual!</button>
+              <button className='btn btn-primary p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Individual!</button>
             </a>
             
             <a href="https://cronometrajeinstantaneo.com/inscripciones/duatlon-la-falda-2025/dupla" target="_blank" rel="noopener noreferrer">
-              <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Duplas!</button>
+              <button className='btn btn-primary p-5 btn-lg bg-success' style={{borderColor: 'white' }}>Inscripcion Duplas!</button>
             </a>
           <div className='tiemposyresultadosdiv'>  
               <a href="https://cronometrajeinstantaneo.com/resultados/duatlon-la-falda/categorias" target="_blank" rel="noopener noreferrer">

@@ -61,7 +61,7 @@ const HeroeRace = () => {
           {/* Right Column */}
           <div className='col-md-6'>
             <div className='card shadow p-3 mb-2 rounded h-100 cardbcolor'>
-              <button onClick={handleScrollToResultados} className="btn btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
+              <button onClick={handleScrollToResultados} className="btn align-self-center  btn-danger mb-3">LINKS INSCRIPCION, RESULTADOS Y FOTOS</button>
               <Image src={heroeracelogo} alt='heroeracecarrera' className='img-fluid mb-4 align-self-center' style={{ width: '30%' }} />
               
               <h1 className='carreratitle mb-3'>Heroe Race!</h1>
