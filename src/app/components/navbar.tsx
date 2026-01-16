@@ -39,14 +39,15 @@ export default function CustomNavbar() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center" style={{ alignContent: 'center', alignItems: 'center' }}>
           <Nav className="navbarcss fw-bold fs-5">
             <Nav.Item className="navbaroptionswithlogo d-flex align-items-center">
+              <Image src={heroeracelogo} alt="HeroeRace Logo" className="logonavheroerace" />
+              <Link href="/heroerace" className="navbarcssitems nav-link" onClick={handleNavClick}>Heroes Race</Link>
+            </Nav.Item>
+            <Nav.Item className="navbaroptionswithlogo d-flex align-items-center">
               <Image src={duatlonlogo} alt="Duatlón Logo" className="logonavduatlon" />
               <Link href="/duatlonlafalda" className="navbarcssitems nav-link" onClick={handleNavClick}>Duatlon La Falda</Link>
             </Nav.Item>
 
-            <Nav.Item className="navbaroptionswithlogo d-flex align-items-center">
-              <Image src={heroeracelogo} alt="HeroeRace Logo" className="logonavheroerace" />
-              <Link href="/heroerace" className="navbarcssitems nav-link" onClick={handleNavClick}>Heroes Race</Link>
-            </Nav.Item>
+            
 
             <Nav.Item className="navbaroptionswithlogo d-flex align-items-center">
               <Image src={paranormallogo} alt="Paranormal Logo" className="logonavparanormal" />

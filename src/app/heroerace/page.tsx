@@ -69,9 +69,9 @@ const HeroeRace = () => {
               <p className='carreradescription'>Corremos en memoria de los valientes que defendieron nuestra patria, llevando ese espíritu de lucha en cada obstáculo y cada kilómetro. En Héroe Race, todos somos héroes en nuestro propio camino.</p>
               <ul className='list-unstyled'>
                 <li className='carrerasinfotitle'>Fecha!</li>
-                <li className='carrerasinfo'>Por decidir..</li>
+                <li className='carrerasinfo'>18 y 19 de Abril</li>
                 <li className='carrerasinfotitle mt-3'>Ubicación!</li>
-                <li className='carrerasinfo'>📍Por decidir..</li>
+                <li className='carrerasinfo'>📍Complejo 7 Cascadas, La Falda</li>
               </ul>
             </div>
           </div>
@@ -97,12 +97,10 @@ const HeroeRace = () => {
         </div>
 
         {/* Inscripciones */}
-        <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025" target="_blank" rel="noopener noreferrer">
-          <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{ borderColor: 'white' }}>Inscripciones cerradas!</button>
+        <a href="https://cronometrajeinstantaneo.com/inscripciones/heroe-race-2026" target="_blank" rel="noopener noreferrer">
+          <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{ borderColor: 'white' }}>Inscripciones!</button>
         </a>
-        <a href="https://cronometrajeinstantaneo.com/inscripciones/heroes-race-2025/dupla" target="_blank" rel="noopener noreferrer">
-          <button className='btn btn-primary me-2 p-5 btn-lg bg-success' style={{ borderColor: 'white' }}>Inscripción cerradas!</button>
-        </a>
+
 
         {/* Resultados y Tiempos */}
         <div className='tiemposyresultadosdiv mt-5' ref={resultadosRef}>  
