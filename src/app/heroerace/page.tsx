@@ -47,10 +47,10 @@ const HeroeRace = () => {
                     <FaMedal className='me-2' /> Elite: 8km.
                   </li>
                   <li className='carrerasinfo'>
-                    <FaMedal className='me-2' /> Competitiva: 8km.
+                    <FaMedal className='me-2' /> Competitiva: 10km.
                   </li>
                   <li className='carrerasinfo'>
-                    <FaUsers className='me-2' /> Dupla: 8km.
+                    <FaUsers className='me-2' /> Dupla: 10km.
                   </li>
                   <li className='carrerasinfo'>Mixto, femenino y masculino</li>
                 </ul>
